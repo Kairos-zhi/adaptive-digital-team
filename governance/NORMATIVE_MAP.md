@@ -10,6 +10,7 @@ that reference a concept are secondary, compatibility, or executable detail.
 |---|---|---|---|
 | ADT definition | `METHODOLOGY.md` | ADOPTED | `README.md` § What ADT provides |
 | Role model | `governance/ROLE_MODEL.md` | ADOPTED | `AGENTS.md` § Roles, `README.md` § Roles |
+| Operational seat and delivery standard | `governance/ROLE_MODEL.md` | ADOPTED | `AGENTS.md` § Roles |
 | Fact/action separation | `governance/AUTHORITY_AND_FACTS.md` | ADOPTED | `AGENTS.md` § FACT_SOURCE_REBIND |
 | Candidate lifecycle | `protocols/CANDIDATE_LIFECYCLE.md` | ADOPTED | `AGENTS.md`, `protocols/LIGHTWEIGHT_EXECUTION_FLOW.md`, `protocols/PERSISTENT_HOLDER_CONTROL_PLANE.md` |
 | Agent-facing rules | `AGENTS.md` | ADOPTED | — |

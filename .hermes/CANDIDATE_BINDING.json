@@ -1,13 +1,47 @@
 {
-  "authorization_id": "UNGRANTED",
-  "authority_source": "NO_AUTHORIZATION",
+  "authorization_id": "AUTH-20260923-CONST-GH-01",
+  "authority_source": "HUMAN_HOLDER",
   "human_role": "HUMAN_HOLDER",
   "repository": "Kairos-zhi/adaptive-digital-team",
-  "base_sha": "",
-  "branch": "",
-  "authorized_actions": [],
-  "authorized_write_scope": [],
-  "risk_boundary": null,
-  "task_id": "",
-  "human_holder_approved": false
+  "base_ref": "main",
+  "base_sha": "addccdeb39988c30be8ab7a6d506d5cf32fa34e2",
+  "branch": "change/adt-20260923-const",
+  "task_id": "DISPATCH-20260923-CONST-GH",
+  "authorized_write_scope": [
+    "governance/ROLE_MODEL.md",
+    "governance/NORMATIVE_MAP.md"
+  ],
+  "bound_candidate_files": [
+    ".hermes/CANDIDATE_BINDING.json",
+    "governance/NORMATIVE_MAP.md",
+    "governance/ROLE_MODEL.md"
+  ],
+  "authorized_actions": [
+    "write",
+    "validate",
+    "commit",
+    "push",
+    "draft_pr"
+  ],
+  "publish_lease": {
+    "push_allowed": true,
+    "draft_pr_allowed": true,
+    "ready_allowed": false,
+    "merge_allowed": false,
+    "branch_delete_allowed": false
+  },
+  "token": {
+    "token_id": "TKN-20260923-CONST-GH-01",
+    "task_id": "DISPATCH-20260923-CONST-GH",
+    "state": "HELD",
+    "holder": "maker-DISPATCH-20260923-CONST-GH",
+    "issued_at": "2026-09-23T01:14:20+08:00",
+    "expires_at": "SESSION_SCOPE",
+    "released_at": null,
+    "release_reason": null
+  },
+  "risk_boundary": "GOVERNANCE_CRITICAL_DRAFT_PR_REQUIRES_INDEPENDENT_CHECKER",
+  "human_holder_approved": true,
+  "approved": true,
+  "approved_at": "2026-09-23T01:14:20+08:00"
 }
