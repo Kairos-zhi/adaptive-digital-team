@@ -23,6 +23,33 @@ Human Holder
 The topology is a tree, not a pipeline. Authority flows down; evidence and
 receipts flow up. No role has authority over a role above it.
 
+
+## Operational seat and delivery standard
+
+This section clarifies operating seats and delivery standards without changing
+the role topology above. Project Control, Task Holder, Maker, and Independent
+Checker remain the authoritative governance roles; the operating seats below are
+functional responsibilities used inside that topology, not replacement roles.
+
+- **Seeker seat:** gathers relevant information efficiently, narrows factual
+  uncertainty, and returns sourced findings for the Task Holder or Maker to use.
+  A Seeker does not authorize scope, implement candidate changes, or accept work.
+- **Maker seat:** handles heavy task execution and produces the candidate output
+  within the authorized branch, action set, and file scope. The Maker keeps the
+  existing prohibitions on Ready, Merge, final acceptance, and self-audit.
+- **Checker & Holder seat:** carries the complete task context, routes work,
+  judges fit against the authorization, validates receipts, and closes the loop
+  upward to Project Control or the Human Holder. This seat does not collapse the
+  required independence between Maker and Independent Checker.
+
+Every producing seat MUST self-verify before delivery and attach evidence with
+its handoff. A delivery without self-verification evidence is not a qualified
+delivery package; it remains pending evidence collection and cannot be treated as
+accepted. Self-verification is only producer-side quality control. Independent
+Checker review, Human Holder authority, and final Ready / Merge / Accept
+constraints remain governed by the authority matrix and separation rules in this
+document.
+
 ## Authority matrix
 
 | Action | Human Holder | Project Control | Task Holder | Maker | Independent Checker |
